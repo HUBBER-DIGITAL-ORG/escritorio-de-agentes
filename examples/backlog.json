@@ -1,0 +1,5 @@
+[
+  { "id": "CK-01", "titulo": "Recalcular frete ao trocar CEP sem recarregar a página", "estado": "pendente", "detalhe": "Hoje o frete só atualiza com F5.", "proximo": "Ligar o campo de CEP ao serviço de frete." },
+  { "id": "CK-02", "titulo": "Cupons percentuais e de valor fixo com validade", "estado": "parcial", "detalhe": "Só existe cupom percentual.", "proximo": "Adicionar tipo valor fixo e data de validade." },
+  { "id": "AC-01", "titulo": "Login com Google e Apple", "estado": "pendente", "detalhe": "", "proximo": "" }
+]

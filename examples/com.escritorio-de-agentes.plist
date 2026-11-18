@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- macOS: copie para ~/Library/LaunchAgents/, troque os caminhos e rode:
+     launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.escritorio-de-agentes.plist -->
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.escritorio-de-agentes</string>
+  <key>ProgramArguments</key><array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>/CAMINHO/escritorio-de-agentes/server.mjs</string>
+  </array>
+  <key>WorkingDirectory</key><string>/CAMINHO/escritorio-de-agentes</string>
+  <key>EnvironmentVariables</key><dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+  <key>RunAtLoad</key><true/><key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/tmp/escritorio-de-agentes.log</string>
+  <key>StandardErrorPath</key><string>/tmp/escritorio-de-agentes.log</string>
+</dict></plist>

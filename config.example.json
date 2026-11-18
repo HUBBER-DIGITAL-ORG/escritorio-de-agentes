@@ -1,0 +1,14 @@
+{
+  "nome": "Meu Projeto",
+  "projeto": "~/projetos/meu-projeto",
+  "repo": ".",
+  "porta": 4777,
+  "janelaHoras": 12,
+  "baseRef": "main",
+  "prefixoWorktree": "wt-",
+  "backlog": "backlog.json",
+  "saidaRevisoes": "output/auto-revisoes",
+  "saidaGerente": "output/gerente",
+  "revisor": { "ligado": true, "esperaMin": 15, "maxDia": 15, "maxParalelo": 2 },
+  "gerente": { "ligado": false, "maxParalelo": 2, "maxDia": 12, "minRamGB": 2, "planoMin": 20 }
+}

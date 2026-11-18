@@ -1,0 +1,14 @@
+{
+  "frentes": [
+    {
+      "nome": "Checkout",
+      "objetivo": "Cliente compra sem fricção: frete correto, cupons e pagamento.",
+      "ids": ["CK-01", "CK-02"]
+    },
+    {
+      "nome": "Conta do cliente",
+      "objetivo": "Login social e recuperação de senha funcionando.",
+      "ids": ["AC-01"]
+    }
+  ]
+}

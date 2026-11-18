@@ -1,0 +1,12 @@
+{
+  "name": "escritorio-de-agentes",
+  "version": "1.0.0",
+  "description": "Escritório pixel ao vivo para acompanhar Codex (ChatGPT) e Claude Code trabalhando juntos, com revisor automático e gerente 24h.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "DEMO=1 node server.mjs"
+  }
+}

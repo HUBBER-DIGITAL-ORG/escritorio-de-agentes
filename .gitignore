@@ -1,0 +1,8 @@
+config.json
+revisor-state.json
+gerente-state.json
+REVISOR_DESLIGADO
+GERENTE_DESLIGADO
+node_modules/
+output/
+.DS_Store
